@@ -70,7 +70,6 @@ body {
 }
 
 .header {
-    
 }
 
 .menu {
@@ -140,4 +139,52 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto 206px;
+}
+
+.about {
+  height: 1129px;
+  background-color: #1d1d1d;
+  padding-top: 128px;
+  padding-bottom: 271px;
+  background: url(../img/buildings_bottom_about.png) center bottom repeat-x,
+    url(../img/buildings_bottom_about_black.png) center bottom repeat-x, #1d1d1d;
+  /* background-size: contain, contain; */
+}
+
+.about__inner {
+  display: grid;
+  grid-template-rows: max-content max-content;
+  grid-template-columns: max-content max-content;
+  grid-gap: 178px;
+  place-content: center;
+}
+
+.about__item {
+  width: 417px;
+  height: 276px;
+  /* background-image: url(../img/about_item_bg.png); */
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+  text-align: center;
+}
+
+.about__year {
+  font-family: "Helvetica";
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #fefefe;
+}
+
+.about__text {
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #b7b7b7;
 }
